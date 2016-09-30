@@ -1,0 +1,197 @@
+body
+{
+	margin:0px auto;
+	background-color:#25A3C3;
+	font-family:"Century Gothic", "Times New Roman", Times, serif;
+}
+
+/*---Login section---*/
+.header
+{
+	margin:10px auto;
+	height:auto;
+	background-color:#FFFFFF;
+	width:400px;
+}
+
+.login
+{
+	margin:0px auto;
+	width:auto;
+	height:auto;
+	padding:20px;
+	z-index: 3;
+}
+
+.login img
+{
+	margin:0px auto;
+	height:90px;
+	width:300px;
+	padding-left:28px;
+	z-index: 3;
+}
+
+.login form
+{
+	margin:0px auto;
+	width:auto;
+	height:auto;
+	padding-left:85px;
+}
+
+.login form .user
+{
+	margin:10px auto;
+	width:180px;
+	height:25px;
+	text-align:center;
+	border:solid, 1px;
+	border-radius: 3px;
+}
+
+.login form .pass
+{
+	margin:10px auto;
+	width:180px;
+	height:25px;
+	text-align:center;
+	border:solid, 1px;
+	border-radius: 3px;
+}
+
+
+.login form .log
+{
+	margin:10px auto;
+	width:55px;
+	height:30px;
+	font-family:"Century Gothic", "Times New Roman", Times, serif;
+	color:#FFF;
+	background-color:#19505E; 
+	text-align:center;
+	border: 0px;
+	border-radius: 3px;
+	margin-left:60px;
+}
+
+/*---CMS Main Page Section(Development Section)---*/
+.header2
+{
+	margin:0px auto;
+	height:auto;
+	background-color:#FFFFFF;
+	width:100%;
+}
+
+.header2 img
+{
+	position: relative;
+	vertical-align: center;
+	height: 40px;
+	margin: 20px auto;
+	margin-left: 30px;
+}
+
+.wrapper
+{
+	margin: 10px auto;
+	float: left;
+	width: auto;
+	height: auto;
+	font-family:"Century Gothic", "Times New Roman", Times, serif;
+	background-color: #fff;
+	padding:0px;
+	margin-left: 20px;
+}
+
+.sidebar
+{
+	margin: 10px auto;
+	width: 430px;
+	height: auto;
+	background-color: #c0c;
+	float: left;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: center;
+	font-family: "Century Gothic", "Times New Roman", Times, serif;
+	border: 0px solid black;
+	border-radius: 7px;
+	box-shadow: -2px 2px 3px grey;
+}
+
+.development-sidebar
+{
+	margin: 0px auto;
+	width: 430px;
+	height: 40px;
+	background-color: #eeeeff;
+	float: left;
+}
+.development-sidebar:hover{
+	background-color: #00ffff;
+}
+.complain-sidebar
+{
+	margin: 0px auto;
+	width: 430px;
+	height: 40px;
+	background-color: #eeeeff;
+	float: left;
+}
+.complain-sidebar:hover{
+	background-color: #00ffff;
+}
+.logout-sidebar
+{
+	margin: 0px auto;
+	width: 430px;
+	height: 40px;
+	background-color: #eeeeff;
+	float: left;
+}
+.logout-sidebar:hover{
+	background-color: #00ffff;
+}
+.content
+{
+	margin: 10px auto;
+	float: left;
+	width: 855px;
+	height: 500px;
+	font-family:"Century Gothic", "Times New Roman", Times, serif;
+	background-color: #eeffee;
+	padding:0px;
+	margin-left: 20px;
+	margin-right: 10px;
+	border: .5px solid #eeffee;
+	border-radius: 7px;
+	box-shadow: -2px 2px 3px grey;
+}
+
+.content table
+{
+	font-family:"Century Gothic", "Times New Roman", Times, serif;
+	margin: 0px auto;
+	vertical-align: left;
+}
+
+.content td
+{
+	border-bottom:solid;
+	border-bottom-color:#999;
+	margin: 0px auto;
+	padding: 10PX;
+}
+
+.content td a
+{
+	color: #000;
+	text-decoration: none; 
+}
+
+.content td a:hover
+{
+	color: #b70606;
+}
